@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FPTU\\PRN231\\PRN231_ProjectMain\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19BB4F52-2D09-4FA7-BB85-E92D74F0F4D9}|PRN231_ProjectMain.csproj|d:\\fptu\\prn231\\prn231_projectmain\\services\\authenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BB4F52-2D09-4FA7-BB85-E92D74F0F4D9}|PRN231_ProjectMain.csproj|solutionrelative:services\\authenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BB4F52-2D09-4FA7-BB85-E92D74F0F4D9}|PRN231_ProjectMain.csproj|d:\\fptu\\prn231\\prn231_projectmain\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BB4F52-2D09-4FA7-BB85-E92D74F0F4D9}|PRN231_ProjectMain.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BB4F52-2D09-4FA7-BB85-E92D74F0F4D9}|PRN231_ProjectMain.csproj|d:\\fptu\\prn231\\prn231_projectmain\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{19BB4F52-2D09-4FA7-BB85-E92D74F0F4D9}|PRN231_ProjectMain.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BB4F52-2D09-4FA7-BB85-E92D74F0F4D9}|PRN231_ProjectMain.csproj|d:\\fptu\\prn231\\prn231_projectmain\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BB4F52-2D09-4FA7-BB85-E92D74F0F4D9}|PRN231_ProjectMain.csproj|solutionrelative:services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BB4F52-2D09-4FA7-BB85-E92D74F0F4D9}|PRN231_ProjectMain.csproj|d:\\fptu\\prn231\\prn231_projectmain\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BB4F52-2D09-4FA7-BB85-E92D74F0F4D9}|PRN231_ProjectMain.csproj|solutionrelative:services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BB4F52-2D09-4FA7-BB85-E92D74F0F4D9}|PRN231_ProjectMain.csproj|d:\\fptu\\prn231\\prn231_projectmain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BB4F52-2D09-4FA7-BB85-E92D74F0F4D9}|PRN231_ProjectMain.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BB4F52-2D09-4FA7-BB85-E92D74F0F4D9}|PRN231_ProjectMain.csproj|d:\\fptu\\prn231\\prn231_projectmain\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BB4F52-2D09-4FA7-BB85-E92D74F0F4D9}|PRN231_ProjectMain.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BB4F52-2D09-4FA7-BB85-E92D74F0F4D9}|PRN231_ProjectMain.csproj|d:\\fptu\\prn231\\prn231_projectmain\\protos\\cart.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{19BB4F52-2D09-4FA7-BB85-E92D74F0F4D9}|PRN231_ProjectMain.csproj|solutionrelative:protos\\cart.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\FPTU\\PRN231\\PRN231_ProjectMain\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "D:\\FPTU\\PRN231\\PRN231_ProjectMain\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T10:01:18.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\FPTU\\PRN231\\PRN231_ProjectMain\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Services\\CategoryService.cs",
+              "ToolTip": "D:\\FPTU\\PRN231\\PRN231_ProjectMain\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Services\\CategoryService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T08:57:12.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenticateService.cs",
+              "DocumentMoniker": "D:\\FPTU\\PRN231\\PRN231_ProjectMain\\Services\\AuthenticateService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthenticateService.cs",
+              "ToolTip": "D:\\FPTU\\PRN231\\PRN231_ProjectMain\\Services\\AuthenticateService.cs",
+              "RelativeToolTip": "Services\\AuthenticateService.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAswEYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T08:57:08.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FPTU\\PRN231\\PRN231_ProjectMain\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\FPTU\\PRN231\\PRN231_ProjectMain\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-21T08:56:40.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\FPTU\\PRN231\\PRN231_ProjectMain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\FPTU\\PRN231\\PRN231_ProjectMain\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T08:56:25.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FPTU\\PRN231\\PRN231_ProjectMain\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\FPTU\\PRN231\\PRN231_ProjectMain\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T07:59:49.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "cart.proto",
+              "DocumentMoniker": "D:\\FPTU\\PRN231\\PRN231_ProjectMain\\Protos\\cart.proto",
+              "RelativeDocumentMoniker": "Protos\\cart.proto",
+              "ToolTip": "D:\\FPTU\\PRN231\\PRN231_ProjectMain\\Protos\\cart.proto",
+              "RelativeToolTip": "Protos\\cart.proto",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2024-07-22T07:30:07.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "D:\\FPTU\\PRN231\\PRN231_ProjectMain\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "Services\\CartService.cs",
+              "ToolTip": "D:\\FPTU\\PRN231\\PRN231_ProjectMain\\Services\\CartService.cs",
+              "RelativeToolTip": "Services\\CartService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAFoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T17:37:23.334Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

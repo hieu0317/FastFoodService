@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+option csharp_namespace = "PRN231_ProjectClient";
+
+import "Protos/product.proto";
+
+package category;
+
+service Categorier {
+  rpc GetAllCategories (GetAllCateReq)  returns (LstCateRepl);
+  rpc CreateCategory (CreateCategoryReq) returns (product.CRUDRepl);
+  rpc DeleteCategory (DeleteCategoryReq) returns (product.CRUDRepl);
+  rpc UpdateCategory (UpdateCategoryReq) returns (product.CRUDRepl);
+}
+
+message DeleteCategoryReq {
+	int32 categoryId = 1;
+}
+
+message UpdateCategoryReq{
+	int32 categoryId = 1;
+	string categoryName = 2;
+	string describe = 3;
+}
+
+message CreateCategoryReq {
+	string categoryName = 1;
+	string describe = 2;
+}
+
+
+message GetAllCateReq {
+}
+
+message LstCateRepl{
+	repeated CategoryProto categories = 1;
+}
+
+message CategoryProto {
+	int32 categoryId  = 1;
+	string categoryName = 2;
+	string describe = 3;
+	string catImage = 4;
+}
+
+
+

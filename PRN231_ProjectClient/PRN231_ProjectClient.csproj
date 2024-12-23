@@ -1,0 +1,69 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>7ce7e3e1-93e4-42d6-aa85-4bdb84434b7e</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Protos\cart.proto" />
+    <None Remove="Protos\category.proto" />
+    <None Remove="Protos\like.proto" />
+    <None Remove="Protos\login.proto" />
+    <None Remove="Protos\order.proto" />
+    <None Remove="Protos\product.proto" />
+    <None Remove="Protos\user.proto" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\fonts\ElegantIcons.svg" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\sass\style.scss" />
+    <None Include="wwwroot\sass\_base.scss" />
+    <None Include="wwwroot\sass\_blog-details.scss" />
+    <None Include="wwwroot\sass\_blog-sidebar.scss" />
+    <None Include="wwwroot\sass\_blog.scss" />
+    <None Include="wwwroot\sass\_breadcrumb.scss" />
+    <None Include="wwwroot\sass\_checkout.scss" />
+    <None Include="wwwroot\sass\_contact.scss" />
+    <None Include="wwwroot\sass\_footer.scss" />
+    <None Include="wwwroot\sass\_header.scss" />
+    <None Include="wwwroot\sass\_hero.scss" />
+    <None Include="wwwroot\sass\_home-page.scss" />
+    <None Include="wwwroot\sass\_mixins.scss" />
+    <None Include="wwwroot\sass\_responsive.scss" />
+    <None Include="wwwroot\sass\_shop-details.scss" />
+    <None Include="wwwroot\sass\_shop-grid.scss" />
+    <None Include="wwwroot\sass\_shoping-cart.scss" />
+    <None Include="wwwroot\sass\_sidebar.scss" />
+    <None Include="wwwroot\sass\_variable.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.27.2" />
+    <PackageReference Include="Grpc.Net.Client" Version="2.64.0" />
+    <PackageReference Include="Grpc.Net.ClientFactory" Version="2.64.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.65.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.6" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="Protos\cart.proto" GrpcServices="Client" />
+    <Protobuf Include="Protos\category.proto" GrpcServices="Client" />
+    <Protobuf Include="Protos\like.proto" GrpcServices="Client" />
+    <Protobuf Include="Protos\login.proto" GrpcServices="Client" />
+    <Protobuf Include="Protos\order.proto" GrpcServices="Client" />
+    <Protobuf Include="Protos\product.proto" GrpcServices="Client" />
+    <Protobuf Include="Protos\user.proto" GrpcServices="Client" />
+  </ItemGroup>
+
+</Project>

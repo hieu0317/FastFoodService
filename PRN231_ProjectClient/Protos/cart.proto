@@ -1,0 +1,50 @@
+syntax = "proto3";
+
+option csharp_namespace = "PRN231_ProjectClient";
+
+import "Protos/product.proto";
+
+package cart;
+
+service Carter {
+  rpc GetListCartByUserId (GetListCartByUserIdReq) returns (LstCartRepl);
+  rpc AddProductToCartWithUserId (AddProductToCartWithUserIdReq) returns (product.CRUDRepl);
+  rpc DeleteProductInCart (DeleteProductInCartReq) returns (product.CRUDRepl);
+  rpc UpdateProductCartByUserId (UpdateProductCartByUserIdReq) returns (product.CRUDRepl);
+}
+
+message UpdateProductCartByUserIdReq{
+	string userId = 1;
+	repeated int32 productId = 2;
+	repeated int32 quantity = 3;
+}
+
+message DeleteProductInCartReq {
+	string userId = 1;
+	int32 productId = 2;
+}
+
+message AddProductToCartWithUserIdReq{
+	string userId = 1;
+	int32 productId = 2;
+	int32 quantity = 3;
+}
+
+message GetListCartByUserIdReq {
+	string userId = 1;
+}
+
+message LstCartRepl{
+	repeated CartProto cart = 1;
+}
+
+message CartProto {
+	int32 cartId  = 1;
+	int32 userId = 2;
+	int32 productId = 3;
+	int32 quantity = 4;
+	product.ProductProto product = 5;
+}
+
+
+

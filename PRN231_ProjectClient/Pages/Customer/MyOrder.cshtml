@@ -1,0 +1,46 @@
+﻿@page
+@model PRN231_ProjectClient.Pages.Customer.MyOrderModel
+@{
+}
+
+<section class="shoping-cart spad">
+    <div class="container">
+        <div class="col-lg-12">
+            <div class="shoping__cart__table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Order Id</th>
+                            <th>Customer Name</th>
+                            <th>Date</th>
+                            <th>Total</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.orders.Orders)
+                        {
+                            <tr>
+                                <td>
+                                    <h5>@item.OrderId</h5>
+                                </td>
+                                <td>
+                                    @item.CustomerName VND
+                                </td>
+                                <td>
+                                    @item.Date
+                                </td>
+                                <td>
+                                    @item.Total VND
+                                </td>
+                                <td>
+                                    @item.OrderStatus
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>

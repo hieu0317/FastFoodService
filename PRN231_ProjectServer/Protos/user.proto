@@ -1,0 +1,19 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "PRN231_ProjectMain";
+
+service Userer {
+	rpc GetUserByUserId (GetUserByUserIdReq) returns (UserProto);
+}
+
+message GetUserByUserIdReq {
+	string userId = 1;
+}
+
+message UserProto{
+	string userName = 1;
+	string email = 2;
+	string phonenum = 3;
+	string address = 4;
+	string fullname = 5;
+}

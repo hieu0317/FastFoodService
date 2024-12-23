@@ -1,0 +1,70 @@
+syntax = "proto3";
+
+option csharp_namespace = "PRN231_ProjectMain";
+
+package product;
+
+service Producter {
+  rpc GetAllProduct (GetAllReq) returns (LstProductRepl);
+  rpc GetProductsByCategory (GetProductsByCategoryReq) returns (LstProductRepl);
+  rpc GetProductById (GetProductByIdReq) returns (ProductProto);
+  rpc DeleteProductById (DeleteProductReq) returns (CRUDRepl);
+  rpc UpdateProductById (UpdateProductReq) returns (CRUDRepl);
+  rpc CreateProduct (CreateProductReq) returns (CRUDRepl);
+}
+
+message CreateProductReq{
+	int32 categoryId = 2;
+	string productName = 3;
+	int32 price = 4;
+	string details = 5;
+	bool status = 6;
+	string url = 7;
+}
+
+message UpdateProductReq{
+	int32 productId = 1;
+	int32 categoryId = 2;
+	string productName = 3;
+	int32 price = 4;
+	string details = 5;
+	string url = 6;
+}
+
+message DeleteProductReq {
+	int32 productId = 1;
+}
+
+message CRUDRepl {
+	bool status = 1;
+	string message = 2;
+}
+
+message GetProductByIdReq{
+	int32 productId = 1;
+}
+
+message GetProductsByCategoryReq {
+	int32 categoryId = 1;
+}
+
+message GetAllReq {
+}
+
+message LstProductRepl {
+	repeated ProductProto products = 1;
+}
+
+message ProductProto {
+	int32 productID = 1;
+	int32 categoryId = 2;
+	string categoryName = 3;
+	string productName = 4;
+	int32 price = 5;
+	string details = 6;
+	bool status = 7;
+	string imageUrl = 8;
+}
+
+
+

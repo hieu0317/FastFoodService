@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option csharp_namespace = "PRN231_ProjectClient";
+
+import "Protos/product.proto";
+
+package like;
+
+service Liker {
+  rpc GetListLikedProductByUserId (GetListLikedProductByUserIdReq) returns (LstLikeRepl);
+}
+
+message GetListLikedProductByUserIdReq {
+	string userId = 1;
+}
+
+message LstLikeRepl{
+	repeated LikeProto like = 1;
+}
+
+message LikeProto {
+	int32 likeId  = 1;
+	int32 productId = 2;
+	string userId = 3;
+	product.ProductProto product = 4;
+}
+
+
+
